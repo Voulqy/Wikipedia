@@ -442,3 +442,52 @@ div.thumbinner {
   background-color: rgb(24, 26, 27);
   border-color: rgb(62, 67, 70);
 }
+
+/* Wiki Table */
+.wikitable {
+  background-color: rgb(27, 30, 31);
+  color: rgb(211, 207, 202);
+  border-color: rgb(72, 78, 81);
+  margin: 1em 0;
+  border: 1px solid #a2a9b1;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.wikitable > caption {
+  font-weight: bold;
+}
+
+.wikitable > tr > th,
+.wikitable > tr > td,
+.wikitable > * > tr > th,
+.wikitable > * > tr > td {
+  border: 1px solid #a2a9b1;
+  border-color: rgb(72, 78, 81);
+  padding: 0.2em 0.4em;
+}
+
+.wikitable > tbody > tr > th {
+  width: auto;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+}
+
+.wikitable td ul,
+.wikitable td ol,
+.wikitable td dl {
+  text-align: left;
+}
+
+.wikitable > * > tr > td > ul {
+  padding: 0 1.5em;
+}
+
+.wikitable > * > tr > td {
+  max-width: 18em;
+}
+
+.wikitable > * > tr > th {
+  padding: 0 1.2em;
+  background-color: #222526;
+}
