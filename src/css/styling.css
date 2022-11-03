@@ -6,6 +6,7 @@ body {
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 100px;
 }
 
 main {
@@ -165,15 +166,17 @@ img {
 
   font-size: 88%;
   line-height: 1.5em;
-  width: 22em;
+  width: 25em;
 
   border-color: rgb(72, 78, 81);
   background-color: rgb(27, 30, 31);
   color: rgb(232, 230, 227);
 }
 
-.infobox {
-  padding: 1em 0;
+.infobox-header {
+  background-color: rgb(78, 78, 78);
+  line-height: normal;
+  padding: 0.5em 0.2em;
 }
 
 .infobox .infobox-above,
@@ -182,6 +185,15 @@ img {
   font-size: 125%;
   font-weight: bold;
   text-align: center;
+}
+
+.infobox-above,
+.infobox-caption {
+  padding: 0.5em 0;
+}
+
+.infobox-image img {
+  border-radius: 5px;
 }
 
 .infobox .infobox-header,
@@ -220,6 +232,11 @@ img {
 .infobox-label {
   font-weight: bold;
   color: white;
+  /* text-align: right !important; */
+}
+
+.infobox-data {
+  max-width: 15em;
 }
 
 #age::before {
