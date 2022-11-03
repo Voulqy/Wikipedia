@@ -491,3 +491,14 @@ div.thumbinner {
   padding: 0 1.2em;
   background-color: #222526;
 }
+
+.wikitable.plainrowheaders th[scope="row"],
+.wikitable.plainrowheaders th[scope="rowgroup"] {
+  font-weight: normal;
+  text-align: left;
+}
+
+.distGroup {
+  font-weight: normal;
+  text-align: left;
+}
